@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'Gas-nAj1';
+  src: url('Gas-nAj1.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  border: 0;
+  color: #edf1a7;
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  background: #111;
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-around;
+  background: #274C43;
+  width: 575px;
+  max-height: 385px;
+  margin: auto;
+  border-radius: 5px;
+  border: double 8px;
+}
+
+.home-score,
+.away-score {
+  text-align: center;
+}
+
+#awayResult, #homeResult {
+  min-height: 12vh;
+	font-family: 'Gas-nAj1', sans-serif;
+}
+
+h3 {
+  border-bottom: 4px solid;
+  margin: 22px auto 0;
+  font-weight: 700;
+  letter-spacing: 2px;
+  max-width: 140px;
+  font-size: 36px;
+}
+
+h4 {
+  margin: 10px 0 15px;
+  font-size: 112px;
+  font-weight: 100;
+}
+
+.btn-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn-points {
+  width: 45px;
+  height: 45px;
+  padding: 1px 4px 6px;
+  border: 3px solid;
+  margin: 0 8px 22px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 1px black;
+  cursor: pointer;
+}
+
+.btn-points:hover {
+  box-shadow: 0px 0px 5px white;
+}
